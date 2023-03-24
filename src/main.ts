@@ -18,7 +18,7 @@ Sentry.init({
     }),
     new Sentry.Replay({
       // Additional SDK configuration goes in here, for example:
-      maskAllText: false,
+      maskAllText: true,
       blockAllMedia: false,
     })
   ],
@@ -27,7 +27,7 @@ Sentry.init({
   // of transactions for performance monitoring.
   // We recommend adjusting this value in production
   tracesSampleRate: 1.0,
-  release: "angular@1.0",
+  release: "angular@1.1",
   debug: true,
   beforeSend(event) {
     console.log(event);
