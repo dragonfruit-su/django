@@ -1,0 +1,6 @@
+[auth]
+token=0ac177a5a0cf41a7bc3016cac3f590f09b911107e6c145d88e32045b8e84afce
+
+[defaults]
+org=dragonfruit-dev
+project=javascript-angular
